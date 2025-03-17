@@ -7,16 +7,18 @@
 
   - This is a sample exam format
   - Exam will have two parts - dictionary operations and classes
-<details>
-  <summary>
-    Dictionary Operations:
-  </summary>
-
-  - This part will be 50 pts
-  - You will be given ONE complex dictionary similar to the examples given below
-  - You will be asked to perform only 10 operations
-  - All dictionary operations will be performed in a function, inside part1.py
-  - This function will be called in main.py inside main() function
+  <details>
+    <summary>
+      Dictionary Operations:
+    </summary>
+  
+    - This part will be 50 pts
+    - You will be given ONE complex dictionary similar to the examples given below
+    - You will be asked to perform only 10 operations
+    - All dictionary operations will be performed in a function, inside part1.py
+    - This function will be called in main.py inside main() function
+  </details>
+</details>
 
 <details>
   <summary>
@@ -32,42 +34,16 @@
     - "courses" -> (dictionary)
       - "fall2023" -> (set of strings)
       - "spring2024" -> (set of strings)
-
-  Download students.pkl https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl
 </details>
 
 <details>
   <summary>
-    Employee Dictionary Structure:  
+    ✅ Create Project in PyCharm
   </summary>
 
-  - It is a complex dictionary with integral keys
-  - (int) -> (dictionary)
-    - "name" -> (string)
-    - "dept" -> (string)
-    - "projects" -> (list of strings)
-    - "titles" -> (set of strings)
-    - "certifications" -> (dictionary)
-      - (string) certification code -> (string) date taken YYYY-MM-DD format
-
-  Download employees.bin https://github.com/suchialex/CINS3002-Exam2Bonus7/blob/main/employees.bin
-</details>
-
-</details>
-
-<details>
-  <summary>
-    Classes:
-  </summary>
-
-  - This part is worth 50 pts
-  - You will define a class per instructions in classes.py
-  - You will import that class in part2.py
-  - Objects of that class will be created and manipulated in a function called class_ops() in part2.py
-  - This function is called in main.py inside main() function
-</details>
-   
-  - All exceptions must be handled
+  - Create a project in PyCharm
+  - Create main.py, part1.py
+  - Download students.pkl https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl
 </details>
 
 
@@ -181,7 +157,7 @@
   <summary>
     ✅ 13. 
   </summary>
-  Delete the score 100 from student 10010101
+  Delete the score 100 from student 10010101 (without raising an exception)
 </details>
 
 
@@ -279,8 +255,26 @@
 </details>
 
 
-### In employee_ops() function, perform these operations
+## Employee Operations
 
+<details>
+  <summary>
+    Employee Dictionary Structure:  
+  </summary>
+
+  - It is a complex dictionary with integral keys
+  - (int) -> (dictionary)
+    - "name" -> (string)
+    - "dept" -> (string)
+    - "projects" -> (list of strings)
+    - "titles" -> (set of strings)
+    - "certifications" -> (dictionary)
+      - (string) certification code -> (string) date taken YYYY-MM-DD format
+
+  Download employees.bin https://github.com/suchialex/CINS3002-CW09/blob/main/employees.bin
+</details>
+
+### In employee_ops() function, perform these operations
 
 <details>
   <summary>
