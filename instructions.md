@@ -188,7 +188,7 @@
 
 <details>
   <summary>
-    ✅ 13. Calculate Average - No user input
+    ✅ 13. Calculate Average - All students
   </summary>
 
   - For all students, print CWID and the average score rounded to two decimals, if scores are not present, print N/A
@@ -197,119 +197,63 @@
 
 <details>
   <summary>
-    ✅ 11. 
+    ✅ 14. Give 10% bonus to all students for all assignments
   </summary>
-  Assign 3 integral scores (meaning, integers) 98.5, 99.3, 90.3 one at a time to student 10010103 (this will be three statements)
+
+  - For all students that have scores, increase each score by 10%
+  - For students that have no scores, give a score of 100 (one element in a list)
+  - For example, if a student has scores [50, 60, 70] their final scores should be [55, 66, 77]
 </details>
 
 
 <details>
   <summary>
-    ✅ 12. 
-  </summary>
-  Unenroll cwid 10010100 from HIST 1001 in fall2023
-</details>
-
-
-<details>
-  <summary>
-    ✅ 13. 
-  </summary>
-  Delete the score 100 from student 10010101 (without raising an exception)
-</details>
-
-
-<details>
-  <summary>
-    ✅ 14. 
-  </summary>
-  Ask the user for a student ID and, delete the third score of that student (without raising any exceptions)
-</details>
-
-
-<details>
-  <summary>
-    ✅ 15. 
-  </summary>
-  Change major values for all the students to uppercase
-</details>
-
-
-<details>
-  <summary>
-    ✅ 16. 
+    ✅ 15. Delete any scores less than 80 for all students
   </summary>
 
-  Delete any scores less than 80 for all students
-  Hint:
+  💡Hint:  
   - Use for loop to go over the dictionary
-  - Use list comprehension to create a new list of scores excluding anything less than 70
+  - For students that have scores, use list comprehension to create a new list of scores excluding anything less than 70
   - Assign that list back to the dictionary key 'scores'
 </details>
 
 
 <details>
   <summary>
-    ✅ 17. 
+    ✅ 16. Change department of all students
   </summary>
-  Change Mary's name to Mia
+  
+  - Change major values for all the students to uppercase
 </details>
 
 
 <details>
   <summary>
-    ✅ 18. 
+    ✅ 17. Change GPA of students
   </summary>
-  To all the students, add a score 100 at the end (if they don't have any scores, this will be their first score)
+  
+  - Add .05 to all the students' GPA
+  - For example Henry's new GPA will be 3.80, James' should be 0.05, Mary's will be 3.91
 </details>
 
 
 <details>
   <summary>
-    ✅ 19. 
+    ✅ 22. Students taking CINS 3002 in Fall 2023
   </summary>
-  Add two courses for spring2024 for student 10010102 - MATH 1001, ENGL 1002
+  
+  - Display all the students' CWIDs and names (in a tabular format) who are taking cins 3002 in fall 2023
+  - Do a case-insensitive search for term and course name
 </details>
 
 
 <details>
   <summary>
-    ✅ 20. 
+    ✅ 23. Drop course
   </summary>
-  Add two courses for spring2024 for student 10010103 - MATH 1001, ENGL 1002
-</details>
-
-
-<details>
-  <summary>
-    ✅ 21. 
-  </summary>
-  Add .05 to all the students' GPA, for example Henry's new GPA will be 3.80, James' should be 0.05, Mary's (or Mia's) will be 3.91
-</details>
-
-
-<details>
-  <summary>
-    ✅ 22. 
-  </summary>
-  Display all the students' names who are taking cins 3002 in fall 2023 (case-insensitive)
-</details>
-
-
-<details>
-  <summary>
-    ✅ 23. 
-  </summary>
-  Add two new terms worth of courses to ALL the students - the data is stored in two tuples ('fall2024', 'UNIV 3000') and ('spring2025', 'MATH 2003') ⏩ Refer to 9-2c
-
-</details>
-
-
-<details>
-  <summary>
-    ✅ 24. 
-  </summary>
-  Drop HIST 1001 for any student that is enrolled in fall 2023
+  
+  - Get user input for a course
+  - If any student is taking that course in fall 2023, drop that course for that student
 </details>
 
 
@@ -336,42 +280,38 @@
 
 <details>
   <summary>
-    ✅ 1. 
+    ✅ 1. Unpickle
   </summary>
-  Unpickle the dictionary in employees.bin and store in a variable of your choice
+  
+  - Unpickle the dictionary in employees.bin and store in a variable of your choice
 </details>
 
 
 <details>
   <summary>
-    ✅ 2. 
+    ✅ 2. Add certification
   </summary>
-  Change employee's name ID 04568 to Roger Stevens
+  
+  - For emp ID 04567 add a new certification EVA-L2 taken on March 22, 2023
 </details>
 
 
 <details>
   <summary>
-    ✅ 3. 
+    ✅ 3. Add title for employee
   </summary>
-  2. For emp ID 04567 add a new certification EVA-L2 taken on March 22, 2023
+
+  - Get user input for employee name
+  - Add a new title - `SGA President` for that employee (case-insensitive name search)
 </details>
 
 
 <details>
   <summary>
-    ✅ 4. 
-  </summary>
-  Add a new title - SGA President - for Riva Malik (you don't know her emp ID)
-</details>
-
-
-<details>
-  <summary>
-    ✅ 5. 
+    ✅ 4. Salary Increment
   </summary>
 
-  For all the programmers, give a salary **increment** of 5000
+  - For all the programmers, give a salary **increment** of 5000
   - Must be case in-sensitive, i.e. you have to look for Programmer or PROGRAMMER or programmer as title 
   - Hint: you may have to use list comprehension to convert all the titles to lowercase
   - If the employee doesn't have any salary, set the salary at 30000
@@ -380,65 +320,59 @@
 
 <details>
   <summary>
-    ✅ 6. 
+    ✅ 5. Add new certification
   </summary>
-  Add a new certification OCPL1 for emp 04569 taken on March 10, 2023
+  
+  - Get user input for employee ID
+  - If that employee is present,
+  - Add a new certification OCPL1 for that employee, the date certification is taken is March 10, 2023 (convert this date into the correct format)
 </details>
 
 
 <details>
   <summary>
-    ✅ 7. 
+    ✅ 6. Change project name
   </summary>
-  Assign the project Compete to Roger Stevens as his first project (you don't know the emp ID)
+  
+  - Mayfield Inc project is taken over by Roundpoint Inc, so change all occurences of that project with the new name
 </details>
 
 
 <details>
   <summary>
-    ✅ 8. 
+    ✅ 10. Add title
   </summary>
-  For Riva Malik, remove the titles Student Intern and SGA President and add Part-Time Worker
+  
+  - For anyone who has a certification that starts with OCPL1, add a title called Oracle Developer
 </details>
 
 
 <details>
   <summary>
-    ✅ 9. 
+    ✅ 11. Display Spring Valley Employees
   </summary>
-  Mayfield Inc project is taken over by Roundpoint Inc, so change all occurences of that project with the new name
+  
+  - Print the name and salaries of all the employees who are working on the project Spring Valley.
+  - Choose a nice format and alignment so they are displayed in a tabular fashion. If name or salary not available, print `-`
 </details>
 
 
 <details>
   <summary>
-    ✅ 10. 
+    ✅ 12. Fix missing employee names
   </summary>
-  For anyone who has a certification that starts with OCPL1, add a title called Oracle Developer
+  
+  - Check the dictionary for any employee who might be missing a name, and if missing, print their ID and ask the user to set a name
+  - Make sure that name doesn't have any special characters except space and first letter of each word must be uppercase (You may implement it in a function named validate_name, or just a while loop)
 </details>
 
 
 <details>
   <summary>
-    ✅ 11. 
+    ✅ 13. Pickle dictionary
   </summary>
-  Print the name and salaries of all the employees who are working on the project Spring Valley. Choose a nice format and alignment so they are displayed in a tabular fashion (name, left aligned over 20, salary right aligned over 8. If either name or salary not available, print -
-</details>
-
-
-<details>
-  <summary>
-    ✅ 12. 
-  </summary>
-  Check the dictionary for any employee who might be missing a name, and if missing, print their ID and ask the user to set a name. Make sure that name doesn't have any special characters except space and first letter of each word must be uppercase. (You may implement it in a function named validate_name, or just a while loop)
-</details>
-
-
-<details>
-  <summary>
-    ✅ 13.  
-  </summary>
-  Pickle this dictionary and save it in a file named employees2.bin
+  
+  - Pickle this dictionary and save it in a file named employees2.bin
 </details>
 
 </details>
