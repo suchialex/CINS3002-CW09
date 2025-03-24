@@ -20,6 +20,7 @@
   - Create a project in PyCharm (do not create any sub folders)
   - Create main.py, part1.py
   - Download the [students dictionary](https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl)
+  - Download [pretty print module](https://github.com/suchialex/pretty-print/blob/main/suchi_pretty_print.py)
 </details>
 
 
