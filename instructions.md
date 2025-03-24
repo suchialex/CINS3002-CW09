@@ -225,7 +225,7 @@
 
 <details>
   <summary>
-    ✅ 16. Change department of all students
+    ✅ 16. Change case of the major of all students
   </summary>
   
   - Change major values for all the students to uppercase
