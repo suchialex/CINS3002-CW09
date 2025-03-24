@@ -2,16 +2,6 @@
 
 <details>
   <summary>
-    ✅ Create Project in PyCharm
-  </summary>
-
-  - Create a project in PyCharm (do not create any sub folders)
-  - Create main.py, part1.py
-  - Download students.pkl https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl
-</details>
-
-<details>
-  <summary>
     Exam 2 Format: Dictionary Operations: (50 pts)
   </summary>
 
@@ -19,8 +9,19 @@
   - You will be asked to perform 10 operations
   - All dictionary operations will be performed in a function `student_ops()`  inside part1.py
   - This function will be called in main.py inside main() function
+</details>
+
+
+<details>
+  <summary>
+    ✅ Create Project in PyCharm
+  </summary>
+
+  - Create a project in PyCharm (do not create any sub folders)
+  - Create main.py, part1.py
   - Download the [students dictionary](https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl)
 </details>
+
 
 ## Student Dictionary Operations
 
