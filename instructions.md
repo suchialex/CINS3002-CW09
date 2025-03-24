@@ -248,7 +248,7 @@
   </summary>
   
   - Display all the students' CWIDs and names (in a tabular format) who are taking cins 3002 in fall 2023
-  - Do a case-insensitive search for term and course name
+  - Do a case-insensitive search for course name
 </details>
 
 
