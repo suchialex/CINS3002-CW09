@@ -244,7 +244,7 @@
 
 <details>
   <summary>
-    ✅ 22. Students taking CINS 3002 in Fall 2023
+    ✅ 18. Students taking CINS 3002 in Fall 2023
   </summary>
   
   - Display all the students' CWIDs and names (in a tabular format) who are taking cins 3002 in fall 2023
@@ -254,7 +254,7 @@
 
 <details>
   <summary>
-    ✅ 23. Drop course
+    ✅ 19. Drop course
   </summary>
   
   - Get user input for a course
@@ -263,7 +263,7 @@
 
 <details>
   <summary>
-    ✅ 24. Copy code to Replit
+    ✅ 20. Copy code to Replit
   </summary>
 
   - Create a new App on replit, name it Exam2Prep
