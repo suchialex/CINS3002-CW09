@@ -180,21 +180,23 @@
 
 <details>
   <summary>
-    ✅ 12. Calculate Average - 1 user input
+    ✅ 12. Calculate Average Score - 1 user input
   </summary>
 
   - Get user input for CWID
   - If that CWID exists in the dictionary
-  - Calculate and print to two decimal point precision, the average score of that student (must check if scores key is present)
+  - Calculate to two decimal point precision, the average score of that student (must check if scores key is present)
+  - 🚩 Average might raise an exception if scores is an empty list, so handle it
+  - Print name and averge of that student without raising an exception
 </details>
 
 
 <details>
   <summary>
-    ✅ 13. Calculate Average - All students
+    ✅ 13. Calculate Average Score - All students
   </summary>
 
-  - For all students, print CWID and the average score rounded to two decimals, if scores are not present, print N/A
+  - For all students that have scores, print name and the average score rounded to two decimals
 </details>
 
 
@@ -216,7 +218,7 @@
 
   💡Hint:  
   - Use for loop to go over the dictionary
-  - For students that have scores, use list comprehension to create a new list of scores excluding anything less than 70
+  - For students that have scores, use list comprehension to create a new list of scores excluding anything less than 80
   - Assign that list back to the dictionary key 'scores'
 </details>
 
