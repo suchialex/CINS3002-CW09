@@ -12,7 +12,7 @@
 
 <details>
   <summary>
-    Dictionary Operations: (50 pts)
+    Exam 2 Format: Dictionary Operations: (50 pts)
   </summary>
 
   - You will be given **ONE** complex dictionary similar to the examples given below
