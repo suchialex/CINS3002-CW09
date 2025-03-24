@@ -19,6 +19,7 @@
   - You will be asked to perform 10 operations
   - All dictionary operations will be performed in a function `student_ops()`  inside part1.py
   - This function will be called in main.py inside main() function
+  - Download the [students dictionary](https://github.com/suchialex/CINS3002-CW09/blob/main/students.pkl)
 </details>
 
 ## Student Dictionary Operations
