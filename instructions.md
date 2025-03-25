@@ -47,7 +47,7 @@
 
 <details>
   <summary>
-    ✅ 1. Unpickle the dictionary
+    ✅ Unpickle the dictionary
   </summary>
   
   - Unpickle the dictionary stored in students.pkl
@@ -56,9 +56,19 @@
     - you may use suchi_print to print the dictionary structure and view the datatypes
 </details>
 
+
 <details>
   <summary>
-    ✅ 2. Change name of a student - 1 user input
+    ✅ Change name of a student - no user input
+  </summary>
+
+  - For CWID 10010100, change the name to `Steven Franklin`
+</details>
+
+
+<details>
+  <summary>
+    ✅ Change name of a student - 1 user input
   </summary>
 
   - Get user input for CWID
@@ -70,7 +80,7 @@
 
 <details>
   <summary>
-    ✅ 3. Change name of a student - 2 user inputs
+    ✅ Change name of a student - 2 user inputs
   </summary>
 
   - Get user input for CWID
@@ -86,7 +96,140 @@
 
 <details>
   <summary>
-    ✅ 4. Enroll for a class for a term - 1 user input
+    ✅ Change gpa of a student - 2 user inputs
+  </summary>
+
+  - Get user input for CWID
+  - Convert CWID to integer (use exception handling or test input using `isdigit()`)
+  - If that CWID exists in the dictionary, ask user to input a gpa
+  - Make sure gpa is float and between 0 and 4
+  - User must be prompted for valid gpa until he enters one
+  - Change the student with the user entered CWID, to the vaidated user entered gpa
+  - If CWID doesn't exist, then print `Student Not Found`
+</details>
+
+
+<details>
+  <summary>
+    ✅ Change major of a student - 2 user inputs
+  </summary>
+
+  - Get user input for CWID
+  - Convert CWID to integer (use exception handling or test input using `isdigit()`)
+  - If that CWID exists in the dictionary, ask user to input a major
+  - Make sure major is all alphabets
+  - User must be prompted for valid major until he enters one
+  - Change the student with the user entered CWID, to the vaidated user entered major's first four characters in uppercase
+  - If CWID doesn't exist, then print `Student Not Found`
+</details>
+
+
+<details>
+  <summary>
+    ✅ Add scores - 1 user input
+  </summary>
+  
+  - Get user input for CWID
+  - If that CWID exists in the dictionary,
+    - add a score of 72 at the beginning of the list
+    - add a score of 65 at the end of the list
+    - If the student has no scores, then his/her new scores will be [72,65]
+  - If CWID doesn't exist, then print `Student Not Found`
+</details>
+
+
+<details>
+  <summary>
+    ✅ Add score - 2 user inputs
+  </summary>
+  
+  - Get user input for CWID
+  - If that CWID exists in the dictionary,
+    - Get user input for score and add the user entered score at the end of the list (make sure user entered score is between 0 and 100)
+    - 🚩 Remember, scores are all integers, so you must convert without raising an exception, (may use isdigit() or exception handling)
+  - If CWID doesn't exist, then print `Student Not Found`
+</details>
+
+
+<details>
+  <summary>
+    ✅ Change case of the major of all students
+  </summary>
+  
+  - Change major values for all the students to lowercase
+</details>
+
+
+<details>
+  <summary>
+    ✅ Change GPA of students
+  </summary>
+  
+  - Add .05 to all the students' GPA
+  - For example Henry's new GPA will be 3.80, James' should be 0.05, Mary's will be 3.91
+</details>
+
+
+
+<details>
+  <summary>
+    ✅ Calculate Average Score - 1 user input
+  </summary>
+
+  - Get user input for CWID
+  - If that CWID exists in the dictionary
+  - Calculate to two decimal point precision, the average score of that student (must check if scores key is present)
+  - 🚩 Average might raise an exception if scores is an empty list, so handle it
+  - Print name and averge of that student without raising an exception
+</details>
+
+
+<details>
+  <summary>
+    ✅ Calculate Average Score - All students
+  </summary>
+
+  - For all students that have scores, print name and the average score rounded to two decimals
+</details>
+
+
+<details>
+  <summary>
+    ✅ Give 10% bonus to all students for all assignments
+  </summary>
+
+  - For all students that have scores, increase each score by 10%
+  - For students that have no scores, give a score of 100 (one element in a list)
+  - For example, if a student has scores [50, 60, 70] their final scores should be [55, 66, 77]
+</details>
+
+
+<details>
+  <summary>
+    ✅ Delete any scores less than 80 for all students
+  </summary>
+
+  💡Hint:  
+  - Use for loop to go over the dictionary
+  - For students that have scores, use list comprehension to create a new list of scores excluding anything less than 80
+  - Assign that list back to the dictionary key 'scores'
+</details>
+
+
+<details>
+  <summary>
+    ✅ Students taking CINS 3002 in Fall 2023
+  </summary>
+  
+  - Display all the students' CWIDs, names and gpa (in a tabular format) who are taking cins 3002 in fall 2023
+  - If name or gpa isn't present, display `-`
+  - Do a case-insensitive search for course name
+</details>
+
+
+<details>
+  <summary>
+    ✅ Enroll for a class for a term - 1 user input
   </summary>
 
   - Get user input for CWID
@@ -97,7 +240,7 @@
 
 <details>
   <summary>
-    ✅ 5. Enroll for a class for a term - 2 user inputs
+    ✅ Enroll for a class for a term - 2 user inputs
   </summary>
 
   - Get user input for CWID
@@ -110,7 +253,7 @@
 
 <details>
   <summary>
-    ✅ 6. Enroll for a class for a term - 3 user inputs
+    ✅ Enroll for a class for a term - 3 user inputs
   </summary>
 
   - Get user input for CWID
@@ -124,30 +267,7 @@
 
 <details>
   <summary>
-    ✅ 7. Add score - 1 user input
-  </summary>
-  
-  - Get user input for CWID
-  - If that CWID exists in the dictionary, add a score of 72 at the beginning of the list
-  - If CWID doesn't exist, then print `Student Not Found`
-</details>
-
-
-<details>
-  <summary>
-    ✅ 8. Add score - 2 user inputs
-  </summary>
-  
-  - Get user input for CWID
-  - If that CWID exists in the dictionary,
-    - Get user input for score and add the user entered score at the beginning of the list (remember, scores are all integers, so you must convert without raising an exception, using isdigit() before conversion will avoid exceptions)
-  - If CWID doesn't exist, then print `Student Not Found`
-</details>
-
-
-<details>
-  <summary>
-    ✅ 9. Unenroll from courses - no user input
+    ✅ Unenroll from courses - no user input
   </summary>
   
   - Unenroll cwid 10010100 from all courses in spring2024
@@ -156,7 +276,7 @@
 
 <details>
   <summary>
-    ✅ 10. Unenroll from courses - 1 user input
+    ✅ Unenroll from courses - 1 user input
   </summary>
 
   - Get user input for CWID
@@ -167,7 +287,7 @@
 
 <details>
   <summary>
-    ✅ 11. Unenroll from courses - 2 user inputs
+    ✅ Unenroll from courses - 2 user inputs
   </summary>
 
   - Get user input for CWID
@@ -180,90 +300,16 @@
 
 <details>
   <summary>
-    ✅ 12. Calculate Average Score - 1 user input
-  </summary>
-
-  - Get user input for CWID
-  - If that CWID exists in the dictionary
-  - Calculate to two decimal point precision, the average score of that student (must check if scores key is present)
-  - 🚩 Average might raise an exception if scores is an empty list, so handle it
-  - Print name and averge of that student without raising an exception
-</details>
-
-
-<details>
-  <summary>
-    ✅ 13. Calculate Average Score - All students
-  </summary>
-
-  - For all students that have scores, print name and the average score rounded to two decimals
-</details>
-
-
-<details>
-  <summary>
-    ✅ 14. Give 10% bonus to all students for all assignments
-  </summary>
-
-  - For all students that have scores, increase each score by 10%
-  - For students that have no scores, give a score of 100 (one element in a list)
-  - For example, if a student has scores [50, 60, 70] their final scores should be [55, 66, 77]
-</details>
-
-
-<details>
-  <summary>
-    ✅ 15. Delete any scores less than 80 for all students
-  </summary>
-
-  💡Hint:  
-  - Use for loop to go over the dictionary
-  - For students that have scores, use list comprehension to create a new list of scores excluding anything less than 80
-  - Assign that list back to the dictionary key 'scores'
-</details>
-
-
-<details>
-  <summary>
-    ✅ 16. Change case of the major of all students
+    ✅ Pickle the dictionary
   </summary>
   
-  - Change major values for all the students to uppercase
+  - Pickle the dictionary to a file named students2.pkl
 </details>
 
 
 <details>
   <summary>
-    ✅ 17. Change GPA of students
-  </summary>
-  
-  - Add .05 to all the students' GPA
-  - For example Henry's new GPA will be 3.80, James' should be 0.05, Mary's will be 3.91
-</details>
-
-
-<details>
-  <summary>
-    ✅ 18. Students taking CINS 3002 in Fall 2023
-  </summary>
-  
-  - Display all the students' CWIDs and names (in a tabular format) who are taking cins 3002 in fall 2023
-  - Do a case-insensitive search for course name
-</details>
-
-
-<details>
-  <summary>
-    ✅ 19. Drop course
-  </summary>
-  
-  - Get user input for a course
-  - If any student is taking that course in fall 2023, drop that course for that student
-</details>
-
-<details>
-  <summary>
-    ✅ 20. Copy code to Replit
+    ✅ Copy code to Replit
   </summary>
 
   - Create a new App on replit, name it Exam2Prep
