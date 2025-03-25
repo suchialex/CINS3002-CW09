@@ -156,7 +156,7 @@
     ✅ Change case of the major of all students
   </summary>
   
-  - Change major values for all the students to lowercase
+  - Change major values for all the students to uppercase
 </details>
 
 
@@ -224,6 +224,16 @@
   - Display all the students' CWIDs, names and gpa (in a tabular format) who are taking cins 3002 in fall 2023
   - If name or gpa isn't present, display `-`
   - Do a case-insensitive search for course name
+</details>
+
+
+<details>
+  <summary>
+    ✅ Students without name
+  </summary>
+  
+  - For any students without names, ask the user for a name
+  - Validate the user entered name and add name to that student
 </details>
 
 
