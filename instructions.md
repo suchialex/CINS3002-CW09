@@ -178,6 +178,7 @@
   </summary>
   
   - Add .05 to all the students' GPA
+  - If any student doesn't have GPA, their new gpa will now be .05
   - For example Henry's new GPA will be 3.80, James' should be 0.05, Mary's will be 3.91
 </details>
 
