@@ -71,11 +71,23 @@
     ✅ Change name of a student - 1 user input
   </summary>
 
+  - Get user input for name
+  - Check if any student has that name, if yes, change the name to `Steven Franklin`
+  - Do a case-insensitive search for name
+  - If name doesn't exist, then print `Student Not Found`
+</details>
+
+<details>
+  <summary>
+    ✅ Change name of a student - 1 user input
+  </summary>
+
   - Get user input for CWID
   - Convert CWID to integer (use exception handling or test input using `isdigit()`)
   - If that CWID exists in the dictionary, change (or add) the name `Steven Franklin`
   - If CWID doesn't exist, then print `Student Not Found`
 </details>
+
 
 
 <details>
